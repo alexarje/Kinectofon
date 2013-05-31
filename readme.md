@@ -6,7 +6,7 @@ Modified date: 2013-05-27
 
 ## What can it do? ##
 
-The Kinectofon is an instrument for creating sound from a Kinect sensor device. It is based on turning images into [motiongrams](http://en.wikipedia.org/wiki/Motiongram), which are again turned into sound based on an "inverse-FFT-process".
+The Kinectofon is an instrument for creating sound from a Kinect sensor device. It is based on turning images into [motiongrams](http://en.wikipedia.org/wiki/Motiongram), which are again turned into sound based on an "inverse-FFT-process". See my [NIME 2013 paper](http://www.arj.no/wp-content/2013/05/Jensenius_2013c.pdf) for details.
 
 ## Usage ##
 
@@ -33,7 +33,8 @@ Connect your Kinect sensor, open the patch, start the video input, start the aud
     
 ## Requirements ##
 
-The Kinectofon is a Max patch, and requires Cycling '74's Max to run. 
+- [Max](cycling74.com/products/maxmspjitter/) from Cycling '74
+- [Jamoma](http://jamoma.org/)
 
 
 ## More information ##
