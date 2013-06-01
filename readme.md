@@ -1,14 +1,14 @@
-# Kinectofon  #
+# Kinectofon 
 
 Version: 	   0.2  
 Created date:  2013-01-21  
 Modified date: 2013-05-27  
 
-## What can it do? ##
+## What can it do?
 
 The Kinectofon is an instrument for creating sound from a Kinect sensor device. It is based on turning images into [motiongrams](http://en.wikipedia.org/wiki/Motiongram), which are again turned into sound based on an "inverse-FFT-process". See my [NIME 2013 paper](http://www.arj.no/wp-content/2013/05/Jensenius_2013c.pdf) for details.
 
-## Usage ##
+## Usage
 
 Connect your Kinect sensor, open the patch, start the video input, start the audio, move to make sound. The following keyboard commands can be used: 
 
@@ -31,26 +31,31 @@ Connect your Kinect sensor, open the patch, start the video input, start the aud
     7   = Silhouette motion image
     8   = Foreground motion image
     
-## Requirements ##
+## Requirements
 
 - [Max](cycling74.com/products/maxmspjitter/) from Cycling '74
 - [Jamoma](http://jamoma.org/)
 
 
-## More information ##
+## More information
 
 The Kinectofon was presented in a paper at NIME 2013: 
 
 - Jensenius, A. R. (2013). [Kinectofon: Performing with shapes in planes](http://www.arj.no/wp-content/2013/05/Jensenius_2013c.pdf). In *Proceedings of the International Conference on New Interfaces For Musical Expression*, pages 196–197, Daejeon, Korea.
 
 
-## Author ##
+## Author
 
 Alexander Refsum Jensenius --- http://www.arj.no  
 University of Oslo, Department of Musicology, fourMs lab
 
+## License
 
-## History ##
+Released under the GPL license
+http://www.gnu.org/copyleft/gpl.html
+
+
+## History
 
 v0.2: Updated for NIME 2013, including fullscreen mode and keyboard shortcuts  
 
